@@ -1,0 +1,12 @@
+# Recursive ignore exclusion
+vscode/*
+!vscode/.gitignore
+!vscode/README.md
+!vscode/data
+vscode/data/*
+!vscode/data/user-data
+vscode/data/user-data/*
+!vscode/data/user-data/User
+vscode/data/user-data/User/globalStorage/
+vscode/data/user-data/User/workspaceStorage/
+vscode/data/user-data/User/History/
