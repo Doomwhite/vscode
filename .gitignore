@@ -1,6 +1,7 @@
 # Recursive ignore exclusion
 !.gitignore
 !README.md
+!extensions.txt
 !data
 data/*
 !data/user-data
