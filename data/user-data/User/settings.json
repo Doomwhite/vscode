@@ -257,10 +257,6 @@
       "after": ["n", "v", "i", "w", "\"", "A", "y"]
     },
     {
-      "before": ["<leader>", "w", "a"],
-      "commands": [":wa"]
-    },
-    {
       "before": ["<leader>", "r"],
       "after": ["\""]
     },
@@ -337,10 +333,6 @@
       "commands": [":tabonly"]
     },
     {
-      "before": ["<leader>", ".", "a"],
-      "commands": [":wa"]
-    },
-    {
       "before": [";", "e"],
       "commands": ["revealInExplorer"]
     },
@@ -360,26 +352,8 @@
       "before": ["<leader>", ".", "S"],
       "commands": ["searchEverywhere.search"]
     },
-    {
-      "before": ["<leader>", "="],
-      "commands": ["editor.action.formatDocument"]
-    },
-    {
-      "before": ["<leader>", "f", "o"],
-      "commands": ["editor.action.organizeImports"]
-    },
-    {
-      "before": ["<leader>", "f", "f"],
-      "commands": ["workbench.action.quickOpen"]
-    },
-    {
-      "before": ["<leader>", "f", "t"],
-      "commands": ["workbench.action.findInFiles"]
-    },
-    {
-      "before": ["<leader>", "f", "T"],
-      "commands": ["searchEverywhere.search"]
-    },
+
+    // G layer
     {
       "before": ["g", "c"],
       "commands": ["editor.action.addCommentLine"]
@@ -408,6 +382,8 @@
       "before": ["g", "e", "q"],
       "commands": ["workbench.action.closePanel"]
     },
+
+    // End of G layer
 
     // EasyMotion Keybindings //
 
@@ -470,6 +446,8 @@
       "before": ["<leader>", "p", "K"],
       "commands": ["workbench.action.openGlobalKeybindingsFile"]
     },
+
+    // F layer
     {
       "before": ["<leader>", "f", "r"],
       "commands": ["fileutils.renameFile"]
@@ -479,9 +457,31 @@
       "commands": [":w"]
     },
     {
-      "before": ["<leader>", "s", "a"],
+      "before": ["<leader>", "f", "S"],
       "commands": [":wa"]
     },
+    {
+      "before": ["<leader>", "f", "="],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["<leader>", "f", "o"],
+      "commands": ["editor.action.organizeImports"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "f", "t"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "f", "T"],
+      "commands": ["searchEverywhere.search"]
+    },
+    // End of F layer
+
     {
       "before": ["<leader>", "r", "r"],
       "commands": ["editor.action.rename"]
@@ -558,19 +558,10 @@
   "editor.cursorSurroundingLines": 15,
   "projectManager.git.baseFolders": ["bsc"],
   "todohighlight.isEnable": true,
-"todohighlight.include": [
-	"**/*.js",
-	"**/*.jsx",
-	"**/*.ts",
-	"**/*.tsx",
-	"**/*.html",
-	"**/*.php",
-	"**/*.css",
-	"**/*.scss"
-],
-"vscode-devtools-for-chrome.chromePath": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoop\\apps\\opera-gx\\98.0.4759.22\\98.0.4759.22\\opera.exe",
-"vscode-devtools-for-chrome.port": 4200,
-"rust-analyzer.server.path": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoop\apps\\rustup\\current\\.cargo\\bin\\rust-analyzer.exe"
+  "todohighlight.include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx", "**/*.html", "**/*.php", "**/*.css", "**/*.scss"],
+  "vscode-devtools-for-chrome.chromePath": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoop\\apps\\opera-gx\\98.0.4759.22\\98.0.4759.22\\opera.exe",
+  "vscode-devtools-for-chrome.port": 4200,
+  "rust-analyzer.server.path": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoopapps\\rustup\\current\\.cargo\\bin\\rust-analyzer.exe"
   /*"vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\Neovim\\bin\\nvim.exe ",
 
 		"vim.leader": "<Space>",
