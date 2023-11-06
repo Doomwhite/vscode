@@ -124,10 +124,6 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+p",
-        "command": "workbench.action.showAllSymbols"
-    },
-    {
         "key": "ctrl+t",
         "command": "-workbench.action.showAllSymbols"
     },
@@ -458,5 +454,10 @@
         "key": "enter",
         "command": "-explorer.openAndPassFocus",
         "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
     }
 ]
