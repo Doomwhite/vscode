@@ -137,14 +137,14 @@
 		"editor.suggest.snippetsPreventQuickSuggestions": false,
 		"editor.suggestSelection": "first",
 		"editor.tabCompletion": "onlySnippets",
-		"editor.wordBasedSuggestions": false
+		"editor.wordBasedSuggestions": "off"
 	},
 	"[javascript]": {
 		"editor.formatOnSave": false
 	},
 	"[typescript]": {
 		"editor.quickSuggestionsDelay": 0,
-		"editor.wordBasedSuggestions": false,
+		"editor.wordBasedSuggestions": "off",
 		"editor.formatOnSave": false,
 		"editor.formatOnPaste": true,
 		"editor.defaultFormatter": "vscode.typescript-language-features"
@@ -156,7 +156,6 @@
 	"editor.formatOnSaveMode": "modifications",
 	"json.maxItemsComputed": 10000,
 	"js/ts.implicitProjectConfig.experimentalDecorators": true,
-	"typescript.tsdk": "",
 	"prettier.jsxSingleQuote": true,
 	"prettier.singleQuote": true,
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -171,7 +170,7 @@
 	"prettier.printWidth": 140,
 	"editor.fontFamily": "IBM Plex Mono",
 	"editor.fontSize": 13.3,
-	"vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoop\\apps\\neovim-nightly\\current\\bin\\nvim.exe",
+	"vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoop\\shims\\nvim.exe",
 	"vim.leader": "<Space>",
 	"vim.history": 1000,
 	"vim.scroll": 18,
@@ -1273,7 +1272,6 @@
 	"vscode-neovim.textDecorationsAtTop": true,
 	"workbench.colorTheme": "Atom One Dark",
 	"window.commandCenter": false,
-	"window.zoomLevel": -1,
 	"errorLens.enabled": true,
 	"errorLens.messageEnabled": true,
 	"[html]": {
@@ -1306,7 +1304,6 @@
 	"vscode-devtools-for-chrome.chromePath": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoop\\apps\\opera-gx\\98.0.4759.22\\98.0.4759.22\\opera.exe",
 	"vscode-devtools-for-chrome.port": 4200,
 	"rust-analyzer.server.path": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoopapps\\rustup\\current\\.cargo\\bin\\rust-analyzer.exe",
-	"editor.lineNumbers": "relative",
 	"editor.fontWeight": "normal",
 	"editor.fontLigatures": false,
 	"bracket-pair-colorizer-2.depreciation-notice": false,
@@ -1327,6 +1324,46 @@
 	"workbench.editor.limit.enabled": true,
 	"vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\AppData\\Local\\nvim\\init.lua",
 	"git.openRepositoryInParentFolders": "never",
+	"sourcegraph.basePath": "/c:/Projetos/quality/src/",
+	"zig.path": "zig",
+	"zig.initialSetupDone": true,
+	"workbench.activityBar.location": "top",
+	"[dart][typescript]": {
+		"editor.wordBasedSuggestions": "off"
+	},
+	"vva.trustedDomain": true,
+	"window.zoomLevel": -1,
+	"zeroReference.useCodeLens": false,
+	"sonarlint.connectedMode.connections.sonarqube": [
+		{
+			"serverUrl": "https://sonarqube.movtech.com.br",
+			"connectionId": "https-sonarqube-movtech-com-br"
+		}
+	],
+	"typescript.tsdk": "./node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"sonarlint.pathToNodeExecutable": "C:\\Users\\adinelson.bruhmuller.MOVTECH\\scoop\\apps\\nvm\\current\\nodejs\\v21.4.0\\node.exe",
+	"sonarlint.focusOnNewCode": true,
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"sonarlint.disableTelemetry": true,
+	"sonarlint.output.showVerboseLogs": true,
+	"sonarlint.output.showAnalyzerLogs": true,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorBlinking": "smooth",
+	"editor.lineNumbers": "relative",
+	"movtech.log.useClassNameToLoggerSource": true,
+	"zig.zls.path": "zls",
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	},
+	"files.associations": {
+		"*.exs": "elixir"
+	},
+	"[elixir]": {
+		"editor.defaultFormatter": "JakeBecker.elixir-ls"
+	},
 	// "javascript.format.insertSpaceAfterConstructor": true,
 	// "typescript.format.insertSpaceAfterConstructor": true,
 	// "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,

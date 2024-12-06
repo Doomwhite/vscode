@@ -1,0 +1,73 @@
+ Volume in drive C is OS
+ Volume Serial Number is EE4C-4F7B
+
+ Directory of C:\Users\adinelson.bruhmuller.MOVTECH\scoop\apps\vscode\current\data\extensions
+
+12/06/2024  09:23 AM    <DIR>          .
+12/06/2024  09:23 AM    <DIR>          ..
+12/15/2022  01:46 PM                 0 .init-default-profile-extensions
+12/03/2024  05:21 PM               192 .obsolete
+06/26/2023  09:51 AM    <DIR>          1tontech.angular-material-0.13.0
+06/26/2023  09:51 AM    <DIR>          akamud.vscode-theme-onedark-2.3.0
+06/26/2023  09:51 AM    <DIR>          alexiv.vscode-angular2-files-1.6.4
+08/23/2024  10:12 AM    <DIR>          angular.ng-template-18.2.0
+10/29/2024  01:29 PM    <DIR>          asvetliakov.vscode-neovim-1.18.13
+11/11/2024  09:39 AM    <DIR>          catppuccin.catppuccin-vsc-3.16.0
+12/03/2024  05:21 PM    <DIR>          christian-kohler.path-intellisense-2.10.0
+06/03/2024  08:56 AM    <DIR>          christian-kohler.path-intellisense-2.9.0
+08/15/2024  09:27 AM    <DIR>          cyrilletuzi.angular-schematics-6.13.1
+09/27/2024  09:24 AM    <DIR>          cyrilletuzi.angular-schematics-6.14.0
+09/30/2024  09:44 AM    <DIR>          cyrilletuzi.angular-schematics-6.15.1
+10/18/2024  05:46 PM    <DIR>          cyrilletuzi.angular-schematics-6.16.0
+10/24/2024  05:40 PM    <DIR>          cyrilletuzi.angular-schematics-6.17.0
+11/19/2024  09:28 AM    <DIR>          cyrilletuzi.angular-schematics-6.18.0
+06/17/2024  03:24 PM    <DIR>          dbaeumer.vscode-eslint-3.0.10
+06/17/2024  03:24 PM    <DIR>          dbaeumer.vscode-eslint-3.0.8
+12/06/2024  09:23 AM                 0 dir_extensions.txt
+06/26/2023  09:52 AM    <DIR>          dotcypress.console-log-0.6.2
+06/26/2023  09:52 AM    <DIR>          dsobotta.godot-rust-vscode-0.4.1
+06/26/2023  09:52 AM    <DIR>          editorconfig.editorconfig-0.16.4
+02/02/2024  01:09 PM    <DIR>          eg2.tslint-1.0.47
+12/03/2024  05:21 PM            37,297 extensions.json
+11/07/2024  09:24 AM    <DIR>          firefox-devtools.vscode-firefox-debug-2.9.11
+01/09/2024  09:02 AM    <DIR>          formulahendry.auto-close-tag-0.5.15
+06/26/2023  09:52 AM    <DIR>          formulahendry.auto-rename-tag-0.1.10
+10/09/2024  03:07 PM    <DIR>          geequlim.godot-tools-2.3.0
+08/23/2023  10:28 AM    <DIR>          gruntfuggly.todo-tree-0.0.226
+09/23/2024  09:02 AM    <DIR>          hbenl.vscode-test-explorer-2.22.1
+03/22/2024  04:02 PM    <DIR>          ianic.zig-language-extras-0.6.2
+06/26/2023  09:52 AM    <DIR>          igorsbitnev.error-gutters-1.0.1
+11/04/2024  04:42 PM    <DIR>          jakebecker.elixir-ls-0.23.1
+11/05/2024  03:32 AM    <DIR>          jakebecker.elixir-ls-0.24.2
+07/16/2024  11:56 AM    <DIR>          johnpapa.angular2-18.0.2
+12/04/2023  08:59 AM    <DIR>          jscearcy.rust-doc-viewer-4.2.0
+04/01/2024  09:22 AM    <DIR>          loiane.angular-extension-pack-1.1.2
+09/13/2023  10:20 AM    <DIR>          mike-co.import-sorter-3.3.1
+11/06/2024  04:37 AM    <DIR>          ms-vscode.cpptools-1.22.11-win32-x64
+01/12/2024  08:55 AM    <DIR>          ms-vscode.test-adapter-converter-0.1.9
+10/04/2024  03:04 PM    <DIR>          ms-vscode.test-adapter-converter-0.2.0
+11/05/2024  03:32 AM    <DIR>          ms-vscode.test-adapter-converter-0.2.1
+09/17/2024  10:19 AM    <DIR>          nbusseneau.vscode-uikeys-1.0.1
+06/26/2023  09:53 AM    <DIR>          nyxiative.rust-and-friends-1.0.0
+11/13/2024  01:20 PM    <DIR>          pkief.material-icon-theme-5.14.1
+06/03/2024  08:57 AM    <DIR>          quicktype.quicktype-23.0.170
+07/04/2024  10:00 AM    <DIR>          rvest.vs-code-prettier-eslint-6.0.0
+06/26/2023  09:52 AM    <DIR>          segerdekort.angular-cli-0.0.19
+11/06/2024  09:35 AM    <DIR>          sonarsource.sonarlint-vscode-4.12.0-win32-x64
+10/18/2024  02:06 PM    <DIR>          sourcegraph.sourcegraph-2.2.19
+06/26/2023  09:52 AM    <DIR>          steoates.autoimport-1.5.4
+09/16/2024  02:50 PM    <DIR>          undefined_publisher.mvt-extensions-1.0.0
+10/09/2024  03:07 PM    <DIR>          unthrottled.doki-theme-88.1.18
+06/24/2024  08:56 AM    <DIR>          usernamehw.errorlens-3.20.0
+03/22/2024  04:02 PM    <DIR>          vadimcn.vscode-lldb-1.10.0
+10/09/2024  03:09 PM    <DIR>          vadimcn.vscode-lldb-1.11.0
+11/07/2024  10:20 AM    <DIR>          vadimcn.vscode-lldb-1.11.1
+06/26/2023  09:54 AM    <DIR>          vadimcn.vscode-lldb-1.9.2
+09/16/2024  01:28 PM    <DIR>          vscode-icons-team.vscode-icons-12.9.0
+06/26/2023  09:53 AM    <DIR>          wayou.vscode-todo-highlight-1.0.5
+03/22/2024  04:02 PM    <DIR>          webfreak.debug-0.27.0
+11/07/2024  09:24 AM    <DIR>          zhuangtongfa.material-theme-3.17.6
+12/03/2024  05:21 PM    <DIR>          zhuangtongfa.material-theme-3.17.7
+09/01/2024  05:30 PM    <DIR>          ziglang.vscode-zig-0.5.9
+               4 File(s)         37,489 bytes
+              62 Dir(s)  45,945,352,192 bytes free
